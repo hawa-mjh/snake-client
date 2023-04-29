@@ -27,10 +27,10 @@ const handleUserInput = function(key) {
     connection.write('Move: right');
   }
   if (key === '1') {
-    connection.write('Say: Hey there!');
+    connection.write('Say: I am on fire!');
   }
   if (key === '2') {
-    connection.write('Say: Good game!');
+    connection.write('Say: I am doing so well!');
   }
 };
 
