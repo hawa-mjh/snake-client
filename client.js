@@ -15,10 +15,10 @@ const connect = function() {
     conn.write('Name: HMH');
     setTimeout(() => {
       conn.write('Move: up');
-    }, 250);
+    }, 1000);
     setInterval(() => {
       conn.write('Move: up');
-    }, 50);
+    }, 1000);
   });
 
   return conn;
