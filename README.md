@@ -12,11 +12,19 @@ Before you can run this client, you will need to be running the server side whic
 
 To install the Snake Client Project, clone this repository to your local machine using the following command:
 
+```
 git clone https://github.com/your-username/snake-client.git
+```
 
 After cloning the repository, navigate to the project directory and install the dependencies using the following command:
 
+```
 npm install
+```
+
+```
+npm run play
+```
 
 ## Usage
 
