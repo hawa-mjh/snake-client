@@ -8,17 +8,17 @@ const connect = function() {
   });
 
   // interpret incoming data as text
-  conn.setEncoding("utf8");
+  conn.setEncoding('utf8');
 
-  // handle incoming data from server
-  conn.on('data', (data) => {
-    console.log('Server says: ', data);
-  });
-
-  // handle successful connection
   conn.on('connect', () => {
     console.log('Successfully connected to game server');
     conn.write('Name: HMH');
+    setTimeout(() => {
+      conn.write('Move: up');
+    }, 250);
+    setInterval(() => {
+      conn.write('Move: up');
+    }, 50);
   });
 
   return conn;
