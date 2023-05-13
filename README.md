@@ -49,7 +49,4 @@ Have fun playing!
 
 * [Hawa](https://github.com/hawa-mjh)
 
-## Acknowledgments
-
-* [Lighthouse Labs](https://www.lighthouselabs.ca/) for providing the project idea and server side code.
 
